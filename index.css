@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 0 0 4px white;
+  margin: 0 0 15px 0;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+}
+
+main {
+  margin-top: 220px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  border-top: 2px solid #ccc;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+li p {
+  line-height: 1.4em;
+}
+
+li img {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+button, input {
+  height: 35px;
+  border-radius: 8px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  margin: 2px;
+}
+
+.pagination {
+  clear: both;
+  border-top: 2px solid #ccc;
+  text-align: center;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 20px 10px;
+}
